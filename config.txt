@@ -1,0 +1,14 @@
+# number of nodes in the system
+5
+# nodeUID hostName listeningPort
+123 127.0.0.1 2234 # nodeUID hostName listeningPort
+5 127.0.0.1 3233
+90 127.0.0.1 5217
+1047 127.0.0.1 2432
+89 127.0.0.1 6221
+# space delimited list of neighbors for each node
+5 90
+123 1047
+123 1047 89
+5 90 89
+90 1047
